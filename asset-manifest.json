@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Task-FNTASTIC/static/css/main.41dc0971.css",
+    "main.js": "/Task-FNTASTIC/static/js/main.06c59f43.js",
+    "index.html": "/Task-FNTASTIC/index.html",
+    "main.41dc0971.css.map": "/Task-FNTASTIC/static/css/main.41dc0971.css.map",
+    "main.06c59f43.js.map": "/Task-FNTASTIC/static/js/main.06c59f43.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.41dc0971.css",
+    "static/js/main.06c59f43.js"
+  ]
+}
