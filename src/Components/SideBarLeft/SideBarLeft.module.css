@@ -1,0 +1,106 @@
+.root {
+  width: 70px;
+}
+
+.itemSideBarMain {
+  border-radius: 50px;
+  background-color: #150c25;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  transition: background 0.3s;
+  transition: scale 0.7s;
+  transition: border-radius 0.1s;
+  margin-bottom: 10px;
+  border-left: 2px solid #202225;
+}
+
+.itemSideBarMain:active,
+.itemSideBarDef:active {
+  transform: scale(0.97);
+}
+
+.itemSideBarDef {
+  border-radius: 50px;
+  background-color: #150c25;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  transition: background 0.3s;
+  transition: scale 0.7s;
+
+  transition: border-radius 0.1s;
+  margin-bottom: 10px;
+  border-left: 2px solid #2d2e49;
+}
+
+.itemSideBarMain svg,
+.activeItem svg,
+.itemSideBarDef svg {
+  width: 30px;
+  height: 30px;
+  fill: #ffff;
+}
+
+.itemSideBarDef:hover {
+  border-radius: 20px;
+  background-color: #3ba55d;
+  cursor: pointer;
+}
+
+.itemSideBarMain:hover {
+  border-radius: 20px;
+  background-color: #5865f2;
+  cursor: pointer;
+}
+
+.activeItem {
+  border-radius: 20px;
+  background-color: #5865f2;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  transition: background 0.3s;
+  transition: border-radius 0.1s;
+  margin-bottom: 10px;
+  border-left: 2px solid #202225;
+}
+
+.activeItemWrapper {
+  border-left: 2px solid #ffff;
+  padding-left: 10px;
+}
+
+.itemWrapper {
+  padding-left: 10px;
+  transition: border-left 0.1s;
+  border-left: 2px solid #2d2e49;
+}
+
+.itemWrapperDef {
+  padding-left: 10px;
+  transition: border-left 0.1s;
+  border-left: 2px solid #2d2e49;
+}
+
+.itemWrapper:hover {
+  border-left: 2px solid #ffff;
+}
+
+.line {
+  width: 50%;
+  height: 5px;
+  border-radius: 10px;
+  margin-left: 24px;
+  background: #373a3f;
+  margin-bottom: 10px;
+}

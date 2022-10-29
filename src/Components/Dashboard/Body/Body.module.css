@@ -1,0 +1,171 @@
+.root {
+  display: flex;
+  width: 100%;
+  height: 89%;
+}
+
+.content {
+  width: 100%;
+  min-width: 500px;
+  display: flex;
+  height: 620px;
+  flex-direction: column;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.content::-webkit-scrollbar {
+  width: 6px; /* ширина для вертикального скролла */
+  background-color: #2e3338;
+  height: 1px;
+}
+
+.content::-webkit-scrollbar-thumb {
+  background-color: #36393f;
+  border-radius: 9em;
+  height: 20px;
+  box-shadow: inset 1px 1px 10px #f3faf7;
+}
+
+.wrapMessage {
+  display: flex;
+  height: 70px;
+  width: 94%;
+  padding: 5px 20px 0px 20px;
+  transition: background 0.3s;
+}
+
+.wrapMessage:last-child {
+  margin-bottom: 70px;
+}
+
+.wrapMessage:hover {
+  background-color: #3c3f45bf;
+}
+
+.wrapImg {
+  margin-right: 20px;
+}
+
+.wrapImg img {
+  width: 50px;
+}
+
+.titleMessage {
+  display: flex;
+  align-items: baseline;
+}
+
+.name {
+  color: #dcddde;
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.date {
+  font-size: 11px;
+  color: #dcddde;
+}
+
+.oneMessage {
+  display: flex;
+  position: relative;
+}
+
+.time {
+  margin-right: 20px;
+  position: absolute;
+  left: -58px;
+  z-index: -1;
+}
+
+.message {
+  color: #dcddde;
+  font-size: 17px;
+  margin-right: 10px;
+}
+.formMessage form {
+  width: 100%;
+}
+.formMessage {
+  position: absolute;
+  width: 70.1%;
+  height: 65px;
+  right: 17px;
+  background-color: #312b3a;
+  bottom: 0;
+}
+
+.input {
+  max-width: 639px;
+  width: 100%;
+}
+
+.input textarea {
+  border: none;
+  background-color: #3d2a5b;
+  max-width: 600px;
+  width: 100%;
+  color: #dcddde;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  border-radius: 10px;
+  height: 45px;
+  position: relative;
+  top: -16px;
+  outline: none;
+  resize: none;
+  padding: 5px 46px;
+  box-sizing: border-box;
+}
+
+.wrapInputSend {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.wrapInput {
+  position: relative;
+  width: 100%;
+  min-width: 500px;
+  max-width: 799px;
+}
+
+.cirleIconInput {
+  position: absolute;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  color: #dcddde;
+  opacity: 0.7;
+  top: -12px;
+  margin-left: 10px;
+}
+
+.cirleIconInput:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.groupButtonInp {
+  position: absolute;
+  display: flex;
+  top: -12px;
+  right: 134px;
+  color: #dcddde;
+}
+.groupButtonInp div {
+  opacity: 0.7;
+  transition: scale 0.3s;
+  margin: 0px 5px;
+}
+.groupButtonInp div:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.groupButtonInp div:last-child:hover {
+  transform: 1.5;
+}

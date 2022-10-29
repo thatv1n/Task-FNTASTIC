@@ -1,0 +1,55 @@
+body {
+  background-color: #302e2e;
+}
+
+.App {
+  position: relative;
+  width: 1129px;
+  height: 725px;
+  background: #2d2e49;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 10vh;
+  overflow: hidden;
+}
+
+.header {
+  margin: 0 4px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 13px;
+  font-weight: bold;
+  color: #a3a6aa;
+  margin-left: 12px;
+}
+
+.control-app {
+  display: flex;
+}
+
+.control-app div {
+  margin: 0 5px;
+}
+
+.collapse,
+.resize-window,
+.close-window {
+  opacity: 0.4;
+  transition: background 0.3s;
+}
+
+.collapse:hover,
+.resize-window:hover,
+.close-window:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.wrapperBody {
+  display: flex;
+  height: 100%;
+}

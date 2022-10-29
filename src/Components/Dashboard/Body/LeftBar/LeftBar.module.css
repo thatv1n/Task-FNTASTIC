@@ -1,0 +1,143 @@
+.root {
+  position: relative;
+  width: 27.4%;
+  background-color: #58458724;
+  height: 100%;
+  display: flex;
+  min-width: 187px;
+  flex-direction: column;
+}
+
+.wrapperContent {
+  margin: 10px 1px 0px 10px;
+  width: 93%;
+}
+
+.itemsTop {
+  width: 100%;
+}
+.itemTop:active,
+.itemTopMess:active {
+  opacity: 0.7;
+}
+
+.itemTop,
+.itemTopMess,
+.activeItemTopMess {
+  padding: 12px 8px;
+  transition: background 0.3s;
+  width: 95%;
+  color: #dcddde;
+  font-size: 17px;
+  font-weight: bold;
+  display: flex;
+}
+
+.activeItemTopMess {
+  background-color: #3c3f45;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+}
+
+.itemTop svg {
+  margin-right: 20px;
+}
+
+.itemTop:hover,
+.itemTopMess:hover {
+  background-color: #3c3f45;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.personalMessages {
+  color: #dcddde;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  transition: background 0.3s;
+  opacity: 0.6;
+  margin-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.personalMessages svg {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.personalMessages svg:first-child {
+  rotate: 89deg;
+}
+
+.itemTopMess,
+.activeItemTopMess {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemTopMess div,
+.activeItemTopMess div {
+  display: flex;
+  align-items: center;
+}
+
+.itemTopMess img,
+.activeItemTopMess img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.personalMessages:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.profileImg,
+.profileImgOff {
+  position: relative;
+}
+
+.profileImg:before,
+.profileImgOff::before {
+  content: '';
+  width: 13px;
+  height: 13px;
+  background-color: #3ba55d;
+  position: absolute;
+  border-radius: 50px;
+  right: 5px;
+  bottom: 0px;
+  border: 3px solid #3c3f45;
+  box-sizing: border-box;
+}
+
+.profileImgOff::before {
+  background-color: #67707d;
+}
+
+.channelItemBar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: rotate 0.3s;
+}
+
+.subChanel {
+  margin-left: 10px;
+  transition: background 0.3s;
+  color: #dcddde;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.subChanel div {
+  padding: 5px 12px;
+}
+
+.subChanel div:hover {
+  background-color: #3c3f45;
+  border-radius: 5px;
+  cursor: pointer;
+}
